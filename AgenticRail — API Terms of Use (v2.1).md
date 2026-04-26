@@ -1,6 +1,6 @@
-AgenticRail — API Terms of Use (v2.1)
+AgenticRail — API Terms of Use (v2.2)
 
-Last updated: 2026-04-09
+Last updated: 2026-04-26
 
 Operator: TUARA KURI LIMITED
 Trading as: AgenticRail
@@ -139,19 +139,24 @@ The API may use standard HTTP status codes, including:
 Clients must not rely solely on HTTP status codes and should always inspect the response body.
 
 9. Rate Limits & Usage
-Free tier: 1,000 requests per calendar month at no charge
-Paid tier: as specified in your pricing plan
+
+Free tier: 10,000 requests per calendar month at no charge
+Growth tier ($299/month): 500,000 requests per calendar month
+Scale tier ($799/month): 5,000,000 requests per calendar month
+Enterprise: custom pricing, volume discounts, and SLA guarantees — contact hello@agenticrail.nz
 
 Burst limit:
 You may not exceed 10 requests per second averaged over any 10-second window without prior written approval.
 
-Exceeding limits may result in:
+Exceeding your tier's request limit or the burst limit may result in:
 
 throttling (HTTP 429)
 temporary denial
 suspension of access
 
-We may change rate limits with reasonable notice.
+Tier limits reset at the start of each calendar month. Unused requests do not carry over.
+
+We may change rate limits and pricing with reasonable notice. The AgenticRail website (agenticrail.nz) is the authoritative source for current pricing, plans, and tiers.
 
 10. Idempotency and Retries
 
