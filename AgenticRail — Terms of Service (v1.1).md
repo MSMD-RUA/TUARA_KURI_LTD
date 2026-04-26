@@ -1,6 +1,6 @@
-AgenticRail — Terms of Service (v1.1)
+AgenticRail — Terms of Service (v1.2)
 
-Last updated: 2026-04-09
+Last updated: 2026-04-26
 
 Operator: TUARA KURI LIMITED
 Trading as: AgenticRail
@@ -172,15 +172,9 @@ No uptime guarantees are provided.
 
 13. Pricing and Fees
 
-AgenticRail currently offers the following pricing options (subject to change with notice):
+Pricing for the System is published on the AgenticRail website and notified to Clients before any charges apply. The website (agenticrail.nz) is the authoritative source for current pricing, plans, and tiers.
 
-Plan	Description
-Free Tier	1,000 requests per calendar month at no charge
-Pay-as-you-go	$0.002 per request beyond the free tier
-Flat Monthly	$49 per month for up to 50,000 requests
-Enterprise	Custom pricing for high volume
-
-Final pricing will be published on the AgenticRail website and notified to Clients before any charges apply.
+AgenticRail may change pricing at any time. Material changes will be notified at least 30 days in advance.
 
 All fees are exclusive of GST or other taxes.
 Clients are responsible for any applicable taxes.
