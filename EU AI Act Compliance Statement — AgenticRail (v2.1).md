@@ -1,6 +1,6 @@
-EU AI Act Compliance Statement — AgenticRail (v2.1)
+EU AI Act Compliance Statement — AgenticRail (v2.2)
 
-Last updated: 2026-04-09
+Last updated: 2026-05-01
 
 Operator: TUARA KURI LIMITED
 Trading as: AgenticRail
@@ -22,7 +22,28 @@ AgenticRail does:
 enforce step order, nonce uniqueness, and sequence sealing
 provide verifiable, sealed sequence records
 act as an infrastructure component used within AI systems, providing execution control and governance capabilities
-2. System Classification
+
+Evidence: 913,079 enforcement decisions across 1M requests with zero errors (April 2026 pressure test). 114,096 sealed sequences. All receipts publicly verifiable at report.agenticrail.nz. Compliance matrix covering 60+ AI governance frameworks at agenticrail.nz/compliance.
+
+2. Article Mapping
+
+AgenticRail directly satisfies the following EU AI Act articles:
+
+Article 9 (Risk Management): The gate is the risk management control — enforcement at infrastructure level. Every ALLOW is a risk acceptance with a cryptographic receipt. Every DENY is a risk mitigation with a recorded reason.
+
+Article 10 (Data Governance): Receipt chains prove the operational pipeline was followed. Bias or anomalies in the pipeline are visible in the receipt log — structural evidence, not procedural documentation.
+
+Article 11 (Technical Documentation): Receipt chains ARE the living technical documentation. Every system version, enforcement decision, and policy change is recorded as a signed receipt. The report generator produces an Article 11-ready compliance report in seconds.
+
+Article 12 (Record-Keeping): Receipts are generated at decision time by the infrastructure layer, not the application. HMAC-signed. Chained. Immutable. This satisfies the "automatically recorded, tamper-evident logging" requirement structurally.
+
+Article 13 (Transparency): The public verification portal at report.agenticrail.nz lets deployers independently verify enforcement. No access to provider systems needed.
+
+Article 14 (Human Oversight): The gate IS the oversight mechanism. If a step fails, nothing proceeds. Human oversight is enforced architecturally — fail-closed design.
+
+Article 72 (Post-Market Monitoring): Every receipt is post-market monitoring evidence, automatically recorded at infrastructure level. 1M-request test data publicly available.
+
+3. System Classification
 
 AgenticRail is positioned as:
 

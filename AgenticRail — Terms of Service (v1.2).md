@@ -1,6 +1,6 @@
-AgenticRail — Terms of Service (v1.2)
+AgenticRail — Terms of Service (v1.3)
 
-Last updated: 2026-04-26
+Last updated: 2026-05-01
 
 Operator: TUARA KURI LIMITED
 Trading as: AgenticRail
@@ -138,6 +138,14 @@ AgenticRail does not rely on logging user content for normal operation.
 
 However, Clients must not rely on the System as a secure or confidential storage mechanism.
 Clients should avoid submitting sensitive personal, financial, or regulated data unless appropriate safeguards are in place.
+
+Receipt retention periods per plan tier:
+
+Free: 7 days | Growth: 30 days | Scale: 1 year | Enterprise: multi-year (contractual)
+
+Clients may request deletion of their account data by contacting hello@agenticrail.nz. Enforcement receipts are retained for the duration of the plan's retention period to enable compliance reporting and chain verification.
+
+A Data Processing Agreement (DPA) incorporating Standard Contractual Clauses is available at https://agenticrail.nz/dpa. The DPA takes effect automatically upon your first paid API call — no separate signature required.
 
 Logs exist to:
 

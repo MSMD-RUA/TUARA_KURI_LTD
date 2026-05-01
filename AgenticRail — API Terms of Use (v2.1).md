@@ -1,6 +1,6 @@
-AgenticRail — API Terms of Use (v2.2)
+AgenticRail — API Terms of Use (v2.3)
 
-Last updated: 2026-04-26
+Last updated: 2026-05-01
 
 Operator: TUARA KURI LIMITED
 Trading as: AgenticRail
@@ -140,15 +140,16 @@ Clients must not rely solely on HTTP status codes and should always inspect the 
 
 9. Rate Limits & Usage
 
-Free tier: 10,000 requests per calendar month at no charge
-Growth tier ($299/month): 500,000 requests per calendar month
-Scale tier ($799/month): 5,000,000 requests per calendar month
-Enterprise: custom pricing, volume discounts, and SLA guarantees — contact hello@agenticrail.nz
+Tier limits (as published at agenticrail.nz/#pricing):
 
-Burst limit:
-You may not exceed 10 requests per second averaged over any 10-second window without prior written approval.
+Free tier (demo key): 10,000 requests per calendar month at no charge. 300 requests per minute per IP.
+Growth tier ($299/month): 500,000 requests per calendar month. 3,000 requests per minute per key.
+Scale tier ($799/month): 5,000,000 requests per calendar month. 30,000 requests per minute per key.
+Enterprise: custom limits, volume discounts, and SLA guarantees — contact hello@agenticrail.nz
 
-Exceeding your tier's request limit or the burst limit may result in:
+Rate limits are enforced by a single-threaded Durable Object per rate-limit key — no race conditions. Demo key users are rate-limited per IP address. Production key users are rate-limited per API key.
+
+Exceeding your tier's request limit or rate limit may result in:
 
 throttling (HTTP 429)
 temporary denial
@@ -157,6 +158,8 @@ suspension of access
 Tier limits reset at the start of each calendar month. Unused requests do not carry over.
 
 We may change rate limits and pricing with reasonable notice. The AgenticRail website (agenticrail.nz) is the authoritative source for current pricing, plans, and tiers.
+
+Self-onboarding: Growth and Scale plans are available for immediate purchase via Stripe payment links on the pricing page. Upon successful payment, an API key is generated and delivered by email automatically. No human intervention required.
 
 10. Idempotency and Retries
 

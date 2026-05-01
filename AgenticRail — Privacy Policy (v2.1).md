@@ -1,6 +1,6 @@
-AgenticRail — Privacy Policy (v2.1)
+AgenticRail — Privacy Policy (v2.2)
 
-Last updated: 2026-04-09
+Last updated: 2026-05-01
 
 Operator: TUARA KURI LIMITED
 Trading as: AgenticRail
@@ -166,13 +166,16 @@ https://www.privacy.org.nz
 AgenticRail uses the following infrastructure providers:
 
 Provider	Purpose	Privacy Policy
-Cloudflare	API hosting, Durable Objects, R2 storage, networking	https://www.cloudflare.com/privacy
-Anthropic	Compliance narrative generation (claude-sonnet-4-6, report worker only; processes sequence receipt metadata)	https://www.anthropic.com/privacy
-Stripe	Payment processing (if applicable)	https://www.stripe.com/privacy
+Cloudflare	API hosting, Durable Objects, R2 storage, KV, D1, networking	https://www.cloudflare.com/privacy
+DeepSeek	AI compliance narrative generation (deepseek-chat, report worker only; processes enforcement summary statistics, not payload data)	https://www.deepseek.com/privacy
+Stripe	Payment processing for subscription plans	https://www.stripe.com/privacy
+Resend	Transactional email delivery (welcome emails, API key delivery)	https://www.resend.com/privacy
 
 These providers process data only under contractual obligations and appropriate safeguards.
 
 We do not sell or share user data for marketing.
+
+A Data Processing Agreement (DPA) incorporating Standard Contractual Clauses is available at https://agenticrail.nz/dpa. The DPA takes effect automatically upon your first paid API call — no separate signature required.
 
 13. Changes to This Privacy Policy
 

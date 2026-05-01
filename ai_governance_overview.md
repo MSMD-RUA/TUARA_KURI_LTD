@@ -1,8 +1,8 @@
-# AgenticRail — AI Governance Overview (v1)
+# AgenticRail — AI Governance Overview (v2)
 
 Operator: TUARA KURI LIMITED  
 System: AgenticRail  
-Date: 2026-04-15
+Date: 2026-05-01
 
 ---
 
@@ -22,7 +22,23 @@ Signal / Input
 → Function Selection  
 → AgenticRail Gate  
 → Policy Validation  
-→ ALLOW / DENY / HALT  
+→ ALLOW / DENY / HALT
+
+Key capabilities (as of May 2026):
+
+- 1M enforcement requests validated with zero errors (April 2026)
+- 114,096 sealed sequences with cryptographic receipt chains
+- Public verification portal: report.agenticrail.nz (no API key needed for demo sequences)
+- Compliance matrix: 60+ frameworks across 4 continents (agenticrail.nz/compliance)
+- Workflow Builder: industry-specific payload generation (agenticrail.nz/builder)
+- Self-onboarding: Stripe → webhook → API key → welcome email (fully automated)
+- Data Processing Agreement: agenticrail.nz/dpa
+- EU AI Act Articles 9, 10, 11, 12, 13, 14, 72 directly satisfied
+- South Korea AI Basic Act, DORA, US state AI employment laws covered
+- Pricing: Free ($0), Growth ($299/mo), Scale ($799/mo), Enterprise (custom)
+- Rate limits: 300/min demo, 3,000/min Growth, 30,000/min Scale
+- Receipt retention: 7 days (Free), 30 days (Growth), 1 year (Scale), multi-year (Enterprise)
+  
 → Execution (if allowed)  
 → Receipt / Audit Log
 
