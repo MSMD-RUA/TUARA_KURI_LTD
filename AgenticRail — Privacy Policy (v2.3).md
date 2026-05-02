@@ -1,6 +1,6 @@
-AgenticRail — Privacy Policy (v2.2)
+AgenticRail — Privacy Policy (v2.3)
 
-Last updated: 2026-05-01
+Last updated: 2026-05-02
 
 Operator: TUARA KURI LIMITED
 Trading as: AgenticRail
@@ -87,10 +87,18 @@ If the System does not need the data to enforce a rule, it should not store it.
 The System is designed to operate on structure (step, function, action_type) rather than content.
 
 5. Data Retention
-Technical logs (API calls) are retained for 90 days, then automatically deleted
-Account information (email address, optional name) is retained while the account is active, plus a reasonable period for legal or security purposes
 
-You may request deletion of your account data at any time (see Section 11).
+AgenticRail retains two distinct categories of data on different schedules:
+
+Enforcement receipts (HMAC-signed decision records stored in R2): retained per plan tier.
+Free: 7 days | Growth: 30 days | Scale: 1 year | Enterprise: multi-year (contractual).
+These receipts are the core compliance artifact and are retained to enable compliance reporting and cryptographic chain verification.
+
+Server and operational logs (HTTP access logs, error logs, latency metrics): retained for 90 days, then automatically deleted.
+
+Account information (email address, optional name): retained while the account is active, plus a reasonable period for legal or security purposes.
+
+You may request deletion of your account data at any time (see Section 11). Enforcement receipts are retained for the duration of the plan's retention period and cannot be individually deleted during that period, as deletion would break the verifiable receipt chain.
 
 6. Data Security
 

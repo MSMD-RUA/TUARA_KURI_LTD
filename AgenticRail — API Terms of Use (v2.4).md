@@ -1,6 +1,6 @@
-AgenticRail — API Terms of Use (v2.3)
+AgenticRail — API Terms of Use (v2.4)
 
-Last updated: 2026-05-01
+Last updated: 2026-05-02
 
 Operator: TUARA KURI LIMITED
 Trading as: AgenticRail
@@ -219,7 +219,8 @@ new validation rules
 updated payload requirements
 
 Backward compatibility is not guaranteed.
-Breaking changes will be notified with reasonable notice (at least 30 days where possible).
+Breaking changes will be notified at least 30 days in advance.
+We use reasonable efforts to maintain availability but do not guarantee specific uptime or response times.
 
 15. API Versioning
 

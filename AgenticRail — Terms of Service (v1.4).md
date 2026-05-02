@@ -1,6 +1,6 @@
-AgenticRail — Terms of Service (v1.3)
+AgenticRail — Terms of Service (v1.4)
 
-Last updated: 2026-05-01
+Last updated: 2026-05-02
 
 Operator: TUARA KURI LIMITED
 Trading as: AgenticRail
@@ -24,7 +24,8 @@ Client	Any user, service, or application sending requests to the System
 Sequence	An ordered set of steps enforced by the System
 Action	A proposed operation submitted for validation
 ALLOW	The System permits the Action to proceed
-HALT / DENY	The System blocks the Action
+DENY	The System blocks the Action due to a policy or sequence constraint; the Sequence may continue from a valid state
+HALT	The System stops execution due to a sequence violation, invalid state, or terminal error; the Sequence cannot proceed
 Policy	The rule set used to validate Actions (e.g., MSMD policy maps)
 3. Nature of the System
 
@@ -176,7 +177,7 @@ may change without notice
 may be unavailable at any time
 may evolve policy definitions
 
-No uptime guarantees are provided.
+No uptime guarantees are provided. AgenticRail uses reasonable efforts to maintain availability but does not commit to any specific uptime target or response time.
 
 13. Pricing and Fees
 
