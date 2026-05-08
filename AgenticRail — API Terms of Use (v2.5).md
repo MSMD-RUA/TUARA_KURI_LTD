@@ -1,6 +1,6 @@
-AgenticRail — API Terms of Use (v2.4)
+AgenticRail — API Terms of Use (v2.5)
 
-Last updated: 2026-05-02
+Last updated: 2026-05-08
 
 Operator: TUARA KURI LIMITED
 Trading as: AgenticRail
@@ -183,6 +183,10 @@ ensure compliance with applicable laws (including the EU AI Act)
 ensure safe use in their domain
 
 AgenticRail is a control layer, not a decision engine.
+
+AgenticRail must not be used as the sole control mechanism in any system where a DENY or HALT decision could result in harm, financial loss, or regulatory impact. The Client must implement appropriate fallback behaviour.
+
+The Client is responsible for ensuring their configuration — including step order, function names, and action types — is correct. Unexpected DENY decisions resulting from misconfiguration are not a defect in the System.
 
 12. Prohibited Use
 

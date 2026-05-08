@@ -1,6 +1,6 @@
-AgenticRail — Terms of Service (v1.4)
+AgenticRail — Terms of Service (v1.5)
 
-Last updated: 2026-05-02
+Last updated: 2026-05-08
 
 Operator: TUARA KURI LIMITED
 Trading as: AgenticRail
@@ -123,6 +123,8 @@ system constraints
 The System is designed to:
 
 fail closed, not fail open.
+
+A DENY or HALT decision means the request did not pass the current policy constraints as configured. It is not a representation that the underlying action was incorrect or invalid. The Client is responsible for ensuring their configuration — including step order, function names, and action types — is correct. Unexpected DENY decisions resulting from misconfiguration are not a defect in the System.
 
 10. Logging and Records
 
